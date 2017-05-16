@@ -1,7 +1,7 @@
 #user_name = ARGV.first		#gets the first argument
 user_name, age = ARGV		# second drill: add another argument to the script
 #prompt = '>'				# we make a variable prompt that is set to the prompt we want and gives that to gets.chomp
-input = '>'
+prompt = '"'
 
 puts "Hi #{user_name}."
 puts "I can see you are #{age} years old."
@@ -27,4 +27,3 @@ And you have a #{computer} computer. Nice.
 """
 
 
-# First study drill: change prompt variable to something else entirely. I changed to input.

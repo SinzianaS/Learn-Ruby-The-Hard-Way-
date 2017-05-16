@@ -1,11 +1,11 @@
 input_file = ARGV.first
 
-def print_all(f)
-	puts f.read
+def print_all(f)   # prints the whole file
+	puts f.read    # prints the file line by line
 end
 
 def rewind(f)
-	f.seek(0)        # this send the current_file to the rewind method 
+	f.seek(0)        # this sends the current_file to the rewind method 
 end                  # and will "seek" position 0 or the beginning of the file
                      # moving to the start of the file
 def print_a_line(line_count, f)
